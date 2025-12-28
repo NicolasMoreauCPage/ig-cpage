@@ -35,7 +35,7 @@ Puis appliquer manuellement le branding :
 
 Le template inclut :
 - **Logo CPage** dans la navbar
-- **Couleurs CPage** : Bleu (#003d7a) et vert (#7fb800)
+- **Couleurs CPage** : Bleu (#0063dc), jaune (#ffc800) et turquoise (#5ad0c6)
 - **Texte personnalisé** : "CPage FHIR IG"
 - **Support français** complet
 
