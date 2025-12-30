@@ -1,0 +1,13 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2025-12-30",
+    "desc": "Première version du guide documentaire CPage des guides d'implémentation FHIR.",
+    "path": "https://www.cpage.fr/ig/ig-fhir-doc-cpage",
+    "changes": [
+      "Création initiale du guide et de la documentation."
+    ],
+    "status": "draft",
+    "sequence": "STU1"
+  }
+]

@@ -4,7 +4,7 @@ name: IG FHIR Doc CPage
 status: draft
 version: 0.1.0
 date: 2025-12-30
-title: Guide documentaire CPage des guides d'implémentaion FHIR
+title: Guide documentaire IG FHIR CPage
 publisher:
   name: CPage
   url: https://www.cpage.fr
@@ -12,10 +12,9 @@ contact:
   - name: CPage
     telecom:
       - system: email
-        value: nicolas.moreau@cpage.fr
-        use: work
+        value: contact@cpage.fr
 description: >-
-  Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté francophone.
+  Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté de l’entreprise.
 fhirVersion: 4.0.1
 copyrightYear: 2026
 releaseLabel: ci-build
@@ -24,23 +23,20 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 parameters:
   shownav: true
 
+dependencies:
+  hl7.fhir.fr.core: 2.1.0
+
 pages:
   index.md:
     title: Accueil
-  quickstart.md:
-    title: Prise en main rapide
-  structure-pages-menu.md:
-    title: Structure des pages & menu
-  installation.md:
-    title: Installation des outils
-  deploiement-publication.md:
-    title: Déploiement & publication
   introduction.md:
     title: Introduction
+  quickstart.md:
+    title: Prise en main rapide
   structure-ig.md:
     title: Structure d’un IG
-  structure-projet.md:
-    title: Structure du projet
+  structure-pages-menu.md:
+    title: Structure des pages & menu
   outils.md:
     title: Outils et technologies
   bonnes-pratiques.md:
@@ -54,19 +50,16 @@ pages:
   annexes.md:
     title: Annexes
 
-  Accueil: index.html
+menu:
+  "Accueil": index.html
+  "Introduction": introduction.html
   "Prise en main rapide": quickstart.html
-  "Structure des pages & menu": structure-pages-menu.html
-  "Installation des outils": installation.html
-  "Déploiement & publication": deploiement-publication.html
-  Introduction: introduction.html
-  Structure:
-    "Structure d'un IG": structure-ig.html
-    "Structure du projet": structure-projet.html
+  "Structure":
+    "Structure d’un IG": structure-ig.html
+    "Pages & menu": structure-pages-menu.html
   "Outils et technologies": outils.html
   "Bonnes pratiques": bonnes-pratiques.html
-  "Publication et validation": publication-validation.html
-  FAQ: faq.html
+  "Publication & validation": publication-validation.html
+  "FAQ": faq.html
   "Liens utiles": liens-utiles.html
-  Annexes: annexes.html
-
+  "Annexes": annexes.html

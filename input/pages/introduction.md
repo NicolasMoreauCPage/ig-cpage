@@ -1,25 +1,28 @@
+
+
 # Introduction
 
-Ce guide documentaire francophone vise à accompagner la communauté dans la création, la publication et la maintenance de guides d’implémentation FHIR (IG). Il s’appuie sur les recommandations officielles d’HL7 et de l’ANS, tout en intégrant des exemples concrets et des retours d’expérience.
+Ce guide accompagne la création, la publication et la maintenance d’IG FHIR dans l’écosystème de l’entreprise. Il propose une démarche structurée, des exemples concrets et des retours d’expérience pour garantir la qualité et la pérennité des guides produits.
 
-## Pourquoi un IG FHIR ?
-Un IG FHIR permet de formaliser les spécifications d’interopérabilité pour un cas d’usage précis, en combinant des profils, des extensions, des exemples et une documentation narrative. Il facilite la compréhension, l’implémentation et la réutilisation des standards FHIR.
+## Pourquoi un IG FHIR ?
 
-## À qui s’adresse ce guide ?
-- Modélisateurs FHIR (créateurs de profils et d’IG)
-- Implémenteurs FHIR (développeurs d’API, intégrateurs)
-- Experts fonctionnels et métiers
-- Toute personne souhaitant contribuer à l’interopérabilité en santé
+Un IG FHIR formalise les spécifications d’interopérabilité pour un cas d’usage précis, en combinant profils, extensions, exemples et documentation narrative. Il facilite la compréhension, l’implémentation et la réutilisation des standards FHIR.
 
-## Structure du guide
-Ce guide est organisé en plusieurs sections :
+## Public concerné
+
+- Modélisateurs FHIR
+- Développeurs/implémenteurs
+- Experts fonctionnels/métiers
+- Toute personne impliquée dans l’interopérabilité
+
+## Plan du guide
+
 - Accueil
-- Outils et technologies
+- Prise en main rapide
 - Structure d’un IG
-- Bonnes pratiques
+- [Bonnes pratiques](bonnes-pratiques.html)
 - Publication et validation
-- Liens utiles
+- Outils et ressources
 - FAQ
 - Annexes
 
-Pour toute suggestion ou contribution, consultez la section "Contact".

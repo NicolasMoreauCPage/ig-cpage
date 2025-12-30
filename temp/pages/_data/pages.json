@@ -21,96 +21,115 @@
     "testplans" : [],
     "testscripts" : [],
     "previous" : "toc.html",
+    "next" : "introduction.html"
+  },
+  "introduction.html" : {
+    "title" : "Introduction",
+    "titlelang" : {
+    },
+    "label" : "2",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Introduction</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "index.html",
+    "next" : "structure-ig.html"
+  },
+  "structure-ig.html" : {
+    "title" : "Structure d’un IG",
+    "titlelang" : {
+    },
+    "label" : "3",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Structure d’un IG</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "introduction.html",
+    "next" : "structure-projet.html"
+  },
+  "structure-projet.html" : {
+    "title" : "Structure du projet",
+    "titlelang" : {
+    },
+    "label" : "4",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Structure du projet</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "structure-ig.html",
+    "next" : "outils.html"
+  },
+  "outils.html" : {
+    "title" : "Outils et technologies",
+    "titlelang" : {
+    },
+    "label" : "5",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Outils et technologies</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "structure-projet.html",
+    "next" : "bonnes-pratiques.html"
+  },
+  "bonnes-pratiques.html" : {
+    "title" : "Bonnes pratiques",
+    "titlelang" : {
+    },
+    "label" : "6",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Bonnes pratiques</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "outils.html",
+    "next" : "publication-validation.html"
+  },
+  "publication-validation.html" : {
+    "title" : "Publication et validation",
+    "titlelang" : {
+    },
+    "label" : "7",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Publication et validation</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "bonnes-pratiques.html",
+    "next" : "faq.html"
+  },
+  "faq.html" : {
+    "title" : "FAQ",
+    "titlelang" : {
+    },
+    "label" : "8",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>FAQ</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "publication-validation.html",
+    "next" : "liens-utiles.html"
+  },
+  "liens-utiles.html" : {
+    "title" : "Liens utiles",
+    "titlelang" : {
+    },
+    "label" : "9",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Liens utiles</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "faq.html",
+    "next" : "annexes.html"
+  },
+  "annexes.html" : {
+    "title" : "Annexes",
+    "titlelang" : {
+    },
+    "label" : "10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Annexes</b></li>",
+    "breadcrumblang" : {
+    },
+    "previous" : "liens-utiles.html",
     "next" : "artifacts.html"
   },
   "artifacts.html" : {
     "title" : "Artifacts Summary",
     "titlelang" : {
     },
-    "label" : "2.0",
+    "label" : "11",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
     "breadcrumblang" : {
     },
-    "previous" : "index.html",
-    "next" : "StructureDefinition-mon-profil.html"
-  },
-  "StructureDefinition-mon-profil.html" : {
-    "title" : "Mon Profil Patient",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "examples" : [],
-    "testplans" : [],
-    "testscripts" : [],
-    "previous" : "artifacts.html",
-    "next" : "StructureDefinition-mon-profil-definitions.html"
-  },
-  "StructureDefinition-mon-profil-definitions.html" : {
-    "title" : "Mon Profil Patient - Definitions",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "previous" : "StructureDefinition-mon-profil.html",
-    "next" : "StructureDefinition-mon-profil-mappings.html"
-  },
-  "StructureDefinition-mon-profil-mappings.html" : {
-    "title" : "Mon Profil Patient - Mappings",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "previous" : "StructureDefinition-mon-profil-definitions.html",
-    "next" : "StructureDefinition-mon-profil-testing.html"
-  },
-  "StructureDefinition-mon-profil-testing.html" : {
-    "title" : "Mon Profil Patient - Testing",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "previous" : "StructureDefinition-mon-profil-mappings.html",
-    "next" : "StructureDefinition-mon-profil.profile.xml.html"
-  },
-  "StructureDefinition-mon-profil.profile.xml.html" : {
-    "title" : "Mon Profil Patient - XML Representation",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "previous" : "StructureDefinition-mon-profil-testing.html",
-    "next" : "StructureDefinition-mon-profil.profile.json.html"
-  },
-  "StructureDefinition-mon-profil.profile.json.html" : {
-    "title" : "Mon Profil Patient - JSON Representation",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "previous" : "StructureDefinition-mon-profil.profile.xml.html",
-    "next" : "StructureDefinition-mon-profil.profile.ttl.html"
-  },
-  "StructureDefinition-mon-profil.profile.ttl.html" : {
-    "title" : "Mon Profil Patient - TTL Representation",
-    "titlelang" : {
-    },
-    "label" : "2.1",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Mon Profil Patient</b></li>",
-    "breadcrumblang" : {
-    },
-    "previous" : "StructureDefinition-mon-profil.profile.json.html"
+    "previous" : "annexes.html"
   }
 }

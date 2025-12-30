@@ -1,11 +1,11 @@
 {
   "path" : "http://hl7.org/fhir/R4/",
-  "canonical" : "https://example.com/fhir/ig/template",
-  "igId" : "hl7.other.uv.template",
-  "igName" : "TemplateIGFr",
-  "packageId" : "hl7.other.uv.template",
-  "igVer" : "1.0.0",
-  "errorCount" : 1,
+  "canonical" : "https://www.cpage.fr/ig/ig-fhir-doc-cpage",
+  "igId" : "ig-fhir-doc-cpage",
+  "igName" : "IGFHIRDocCPage",
+  "packageId" : "ig-fhir-doc-cpage",
+  "igVer" : "0.1.0",
+  "errorCount" : 2,
   "version" : "4.0.1",
   "releaseLabel" : "ci-build",
   "releaseLabellang" : {
@@ -15,10 +15,10 @@
   "toolingVersion" : "5.0.0",
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
-  "genDate" : "Tue, Dec 30, 2025 12:28+0100",
+  "genDate" : "Tue, Dec 30, 2025 15:18+0100",
   "genDay" : "30/12/2025",
-  "totalFiles" : 25,
-  "processedFiles" : 31,
+  "totalFiles" : 31,
+  "processedFiles" : 36,
   "repoSource" : "https://github.com/NicolasMoreauCPage/ig-cpage",
   "resourceTypes" : [
     "Account",
@@ -236,13 +236,13 @@
     "xhtml"
   ],
   "ig" : {
-    "id" : "hl7.other.uv.template",
-    "name" : "TemplateIGFr",
-    "title" : "Template d'IG FHIR en Français",
+    "id" : "ig-fhir-doc-cpage",
+    "name" : "IGFHIRDocCPage",
+    "title" : "Guide documentaire CPage des guides d'implémentaion FHIR",
     "titlelang" : {
     },
-    "url" : "https://example.com/fhir/ig/template/ImplementationGuide/hl7.other.uv.template",
-    "version" : "1.0.0",
+    "url" : "https://www.cpage.fr/ig/ig-fhir-doc-cpage/ImplementationGuide/ig-fhir-doc-cpage",
+    "version" : "0.1.0",
     "status" : "draft",
     "experimental" : false,
     "publisher" : "CPage",
@@ -251,11 +251,15 @@
     "contact" : [
       {
         "name" : "CPage",
-        "telecom" : ["https://www.cpage.example", "contact@cpage.example"]
+        "telecom" : ["https://www.cpage.fr"]
+      },
+      {
+        "name" : "CPage",
+        "telecom" : ["nicolas.moreau@cpage.fr"]
       }
     ],
-    "date" : "2025-12-30T12:28:40+01:00",
-    "description" : "Un template pour créer des Implementation Guides FHIR avec style personnalisé et langue française",
+    "date" : "2025-12-30",
+    "description" : "Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté francophone.",
     "descriptionlang" : {
     },
     "tx-server" : "https://tx.fhir.org/r4",

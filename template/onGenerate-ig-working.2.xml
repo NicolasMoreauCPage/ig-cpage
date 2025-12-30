@@ -1,51 +1,52 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-   <id value="hl7.other.uv.template"/>
-   <language value="fr-FR"/>
+   <id value="ig-fhir-doc-cpage"/>
    <text>
       <status value="generated"/>
-      <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR">
+      <div xmlns="http://www.w3.org/1999/xhtml">
          <p class="res-header-id">
-            <b>Narratif généré : ImplementationGuide hl7.other.uv.template</b>
+            <b>Narratif généré : ImplementationGuide ig-fhir-doc-cpage</b>
          </p>
-         <a name="hl7.other.uv.template"> </a>
-         <a name="hchl7.other.uv.template"> </a>
-         <div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%">
-            <p style="margin-bottom: 0px">Langue : fr-FR</p>
-         </div>
-         <h2>TemplateIGFr</h2>
+         <a name="ig-fhir-doc-cpage"> </a>
+         <a name="hcig-fhir-doc-cpage"> </a>
+         <h2>IGFHIRDocCPage</h2>
          <p>LURL officielle pour ce guide dimplémentation est : </p>
-         <pre>https://example.com/fhir/ig/template/ImplementationGuide/hl7.other.uv.template</pre>
+         <pre>https://www.cpage.fr/ig/ig-fhir-doc-cpage/ImplementationGuide/ig-fhir-doc-cpage</pre>
          <div>
-            <p>Un template pour créer des Implementation Guides FHIR avec style personnalisé et langue française</p>
+            <p>Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté francophone.</p>
          </div>
       </div>
    </text>
-   <url value="https://example.com/fhir/ig/template/ImplementationGuide/hl7.other.uv.template"/>
-   <version value="1.0.0"/>
-   <name value="TemplateIGFr"/>
-   <title value="Template d'IG FHIR en Français"/>
+   <url value="https://www.cpage.fr/ig/ig-fhir-doc-cpage/ImplementationGuide/ig-fhir-doc-cpage"/>
+   <version value="0.1.0"/>
+   <name value="IGFHIRDocCPage"/>
+   <title value="Guide documentaire CPage des guides d'implémentaion FHIR"/>
    <status value="draft"/>
-   <date value="2025-12-30T12:28:40+01:00"/>
+   <date value="2025-12-30"/>
    <publisher value="CPage"/>
    <contact>
       <name value="CPage"/>
       <telecom>
          <system value="url"/>
-         <value value="https://www.cpage.example"/>
-      </telecom>
-      <telecom>
-         <system value="email"/>
-         <value value="contact@cpage.example"/>
+         <value value="https://www.cpage.fr"/>
       </telecom>
    </contact>
-   <description value="Un template pour créer des Implementation Guides FHIR avec style personnalisé et langue française"/>
+   <contact>
+      <name value="CPage"/>
+      <telecom>
+         <system value="email"/>
+         <value value="nicolas.moreau@cpage.fr"/>
+         <use value="work"/>
+      </telecom>
+   </contact>
+   <description value="Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté francophone."/>
    <jurisdiction>
       <coding>
          <system value="urn:iso:std:iso:3166"/>
          <code value="FR"/>
+         <display value="FRANCE"/>
       </coding>
    </jurisdiction>
-   <packageId value="hl7.other.uv.template"/>
+   <packageId value="ig-fhir-doc-cpage"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
    <dependsOn id="hl7tx">
@@ -70,7 +71,7 @@
             <valueString value="copyrightyear"/>
          </extension>
          <extension url="value">
-            <valueString value="2023+"/>
+            <valueString value="2026"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -79,6 +80,14 @@
          </extension>
          <extension url="value">
             <valueString value="ci-build"/>
+         </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+         <extension url="code">
+            <valueString value="shownav"/>
+         </extension>
+         <extension url="value">
+            <valueString value="true"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -142,7 +151,7 @@
             <valueString value="path-history"/>
          </extension>
          <extension url="value">
-            <valueString value="https://example.com/fhir/ig/template/history.html"/>
+            <valueString value="https://www.cpage.fr/ig/ig-fhir-doc-cpage/history.html"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -380,24 +389,6 @@
          <name value="Other"/>
          <description value="These are resources that are used within this implementation guide that do not fit into one of the other categories."/>
       </grouping>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
-            <valueInteger value="999999999"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-mon-profil.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/mon-profil"/>
-         </reference>
-         <name value="Mon Profil Patient"/>
-         <description value="Un exemple de profil patient personnalisé"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
             <valueUrl value="toc.html"/>
@@ -411,6 +402,78 @@
             </extension>
             <nameUrl value="index.html"/>
             <title value="Accueil"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="introduction.html"/>
+            </extension>
+            <nameUrl value="introduction.html"/>
+            <title value="Introduction"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="structure-ig.html"/>
+            </extension>
+            <nameUrl value="structure-ig.html"/>
+            <title value="Structure d’un IG"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="structure-projet.html"/>
+            </extension>
+            <nameUrl value="structure-projet.html"/>
+            <title value="Structure du projet"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="outils.html"/>
+            </extension>
+            <nameUrl value="outils.html"/>
+            <title value="Outils et technologies"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="bonnes-pratiques.html"/>
+            </extension>
+            <nameUrl value="bonnes-pratiques.html"/>
+            <title value="Bonnes pratiques"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="publication-validation.html"/>
+            </extension>
+            <nameUrl value="publication-validation.html"/>
+            <title value="Publication et validation"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="faq.html"/>
+            </extension>
+            <nameUrl value="faq.html"/>
+            <title value="FAQ"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="liens-utiles.html"/>
+            </extension>
+            <nameUrl value="liens-utiles.html"/>
+            <title value="Liens utiles"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+               <valueUrl value="annexes.html"/>
+            </extension>
+            <nameUrl value="annexes.html"/>
+            <title value="Annexes"/>
             <generation value="markdown"/>
          </page>
       </page>
@@ -476,11 +539,15 @@
       </parameter>
       <parameter>
          <code value="copyrightyear"/>
-         <value value="2023+"/>
+         <value value="2026"/>
       </parameter>
       <parameter>
          <code value="releaselabel"/>
          <value value="ci-build"/>
+      </parameter>
+      <parameter>
+         <code value="shownav"/>
+         <value value="true"/>
       </parameter>
       <parameter>
          <code value="autoload-resources"/>
@@ -512,7 +579,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="https://example.com/fhir/ig/template/history.html"/>
+         <value value="https://www.cpage.fr/ig/ig-fhir-doc-cpage/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

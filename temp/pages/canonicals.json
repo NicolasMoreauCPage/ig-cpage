@@ -1,16 +1,9 @@
 [
   {
-    "id" : "hl7.other.uv.template",
+    "id" : "ig-fhir-doc-cpage",
     "type" : "ImplementationGuide",
-    "url" : "https://example.com/fhir/ig/template/ImplementationGuide/hl7.other.uv.template",
-    "version" : "1.0.0",
-    "name" : "TemplateIGFr"
-  },
-  {
-    "id" : "mon-profil",
-    "type" : "StructureDefinition",
-    "url" : "https://example.com/fhir/ig/template/StructureDefinition/mon-profil",
-    "version" : "1.0.0",
-    "name" : "MonProfil"
+    "url" : "https://www.cpage.fr/ig/ig-fhir-doc-cpage/ImplementationGuide/ig-fhir-doc-cpage",
+    "version" : "0.1.0",
+    "name" : "IGFHIRDocCPage"
   }
 ]

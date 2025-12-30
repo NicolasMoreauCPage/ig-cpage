@@ -1,20 +1,20 @@
 {
-  "ImplementationGuide/hl7.other.uv.template" : {
+  "ImplementationGuide/ig-fhir-doc-cpage" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
     "index" : 0,
-    "source" : "/home/nico/Travail/ig-fhir-doc-cpage/fsh-generated/resources/ImplementationGuide-hl7.other.uv.template.json",
-    "sourceTail" : "ImplementationGuide-hl7.other.uv.template.json",
+    "source" : "/home/nico/Travail/ig-fhir-doc-cpage/fsh-generated/resources/ImplementationGuide-ig-fhir-doc-cpage.json",
+    "sourceTail" : "ImplementationGuide-ig-fhir-doc-cpage.json",
     "path" : "index.html",
-    "url" : "https://example.com/fhir/ig/template/ImplementationGuide/hl7.other.uv.template",
-    "version" : "1.0.0",
-    "name" : "TemplateIGFr",
-    "title" : "Template d'IG FHIR en Français",
+    "url" : "https://www.cpage.fr/ig/ig-fhir-doc-cpage/ImplementationGuide/ig-fhir-doc-cpage",
+    "version" : "0.1.0",
+    "name" : "IGFHIRDocCPage",
+    "title" : "Guide documentaire CPage des guides d'implémentaion FHIR",
     "titlelang" : {
     },
-    "date" : "2025-12-30T12:28:40+01:00",
-    "description" : "Un template pour créer des Implementation Guides FHIR avec style personnalisé et langue française",
+    "date" : "2025-12-30",
+    "description" : "Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté francophone.",
     "descriptionlang" : {
     },
     "jurisdictions" : [
@@ -27,39 +27,7 @@
     "status" : {
       "class" : "colsd",
       "owner" : "CPage",
-      "link" : "https://www.cpage.example",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/mon-profil" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 1,
-    "source" : "fsh-generated/resources/StructureDefinition-mon-profil.json",
-    "sourceTail" : "StructureDefinition-mon-profil.json",
-    "path" : "StructureDefinition-mon-profil.html",
-    "url" : "https://example.com/fhir/ig/template/StructureDefinition/mon-profil",
-    "version" : "1.0.0",
-    "name" : "MonProfil",
-    "title" : "Mon Profil Patient",
-    "titlelang" : {
-    },
-    "date" : "2025-12-30T12:28:40+01:00",
-    "description" : "Un exemple de profil patient personnalisé",
-    "descriptionlang" : {
-    },
-    "jurisdictions" : [
-      {
-        "code" : "FR",
-        "name" : "France",
-        "flag" : "fra"
-      }
-    ],
-    "status" : {
-      "class" : "colsd",
-      "owner" : "CPage",
-      "link" : "https://www.cpage.example",
+      "link" : "https://www.cpage.fr",
       "status" : "Draft"
     }
   }
