@@ -1,25 +1,30 @@
 #!/bin/bash
-# Script principal pour générer l'IG avec branding CPage automatique
+publisher_jar=publisher.jar
+input_cache_path=./input-cache/
+echo Checking internet connection...
+curl -sSf tx.fhir.org > /dev/null
 
-echo "🚀 Génération de l'IG FHIR avec branding CPage automatique..."
-echo "📍 Template: https://github.com/NicolasMoreauCPage/ig-template-cpage"
-echo ""
-
-# Générer l'IG
-echo "⚙️  Génération en cours..."
-java -jar input-cache/publisher.jar -ig ig.ini
-
-# Vérifier si la génération a réussi
 if [ $? -eq 0 ]; then
-    echo ""
-    echo "✅ Génération terminée, application du branding CPage..."
-    ./_apply_branding.sh
-    echo ""
-    echo "🎊 SUCCÈS ! IG avec branding CPage générée !"
-    echo "📂 Résultat: output/index.html"
-    echo "🌐 Ouvrir: file://$(pwd)/output/index.html"
+	echo "Online"
+	txoption=""
 else
-    echo ""
-    echo "❌ ERREUR lors de la génération de l'IG"
-    exit 1
+	echo "Offline"
+	txoption="-tx n/a"
+fi
+
+echo "$txoption"
+
+export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8"
+
+publisher=$input_cache_path/$publisher_jar
+if test -f "$publisher"; then
+	java -jar $publisher -ig . $txoption $*
+
+else
+	publisher=../$publisher_jar
+	if test -f "$publisher"; then
+		java -jar $publisher -ig . $txoption $*
+	else
+		echo IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
+	fi
 fi
