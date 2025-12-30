@@ -10,3 +10,6 @@ includes/
 layouts/
 liquid/
 scripts/
+template/
+temp/
+input_cache/

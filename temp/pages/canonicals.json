@@ -1,9 +1,0 @@
-[
-  {
-    "id" : "ig-fhir-doc-cpage",
-    "type" : "ImplementationGuide",
-    "url" : "https://www.cpage.fr/ig/ig-fhir-doc-cpage/ImplementationGuide/ig-fhir-doc-cpage",
-    "version" : "0.1.0",
-    "name" : "IGFHIRDocCPage"
-  }
-]
