@@ -1,12 +1,10 @@
-# sushi-config.yaml
-
 id: ig-fhir-doc-cpage
-canonical: https://interop.esante.gouv.fr/ig/ig-fhir-doc-cpage
+canonical: https://www.cpage.fr/ig/ig-fhir-doc-cpage
 name: IG FHIR Doc CPage
 status: draft
 version: 0.1.0
 date: 2025-12-30
-title: Guide documentaire francophone des IG FHIR
+title: Guide documentaire CPage des guides d'implémentaion FHIR
 publisher:
   name: CPage
   url: https://www.cpage.fr
@@ -14,14 +12,55 @@ contact:
   - name: CPage
     telecom:
       - system: email
-        value: ci-sis@esante.gouv.fr
+        value: nicolas.moreau@cpage.fr
+        use: work
 description: >-
   Ce guide propose une documentation complète sur la création, la publication et la maintenance des guides d’implémentation FHIR, à destination de la communauté francophone.
-license: CC-BY-4.0
 fhirVersion: 4.0.1
-dependencies:
-  ans.fr.documentation: 0.1.9
-  hl7.fhir.uv.howto: 0.1.0
+copyrightYear: 2026
+releaseLabel: ci-build
+jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
+
 parameters:
-  show-inherited-invariants: true
-  path-expansion-params: true
+  shownav: true
+
+pages:
+  index.md:
+    title: Accueil
+  introduction.md:
+    title: Introduction
+  structure-ig.md:
+    title: Structure d’un IG
+  structure-projet.md:
+    title: Structure du projet
+  outils.md:
+    title: Outils et technologies
+  bonnes-pratiques.md:
+    title: Bonnes pratiques
+  publication-validation.md:
+    title: Publication et validation
+  faq.md:
+    title: FAQ
+  liens-utiles.md:
+    title: Liens utiles
+  annexes.md:
+    title: Annexes
+
+  installation.md:
+    title: Installation de Sushi et Jekyll
+
+menu:
+  Accueil: index.html
+  Introduction: introduction.html
+  Structure:
+    "Structure d'un IG": structure-ig.html
+    "Structure du projet": structure-projet.html
+  "Outils et technologies": outils.html
+  "Bonnes pratiques": bonnes-pratiques.html
+  "Publication et validation": publication-validation.html
+  FAQ: faq.html
+  "Liens utiles": liens-utiles.html
+  Annexes: annexes.html
+
+  Installation: installation.html
+
