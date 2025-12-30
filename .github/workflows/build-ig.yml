@@ -15,9 +15,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Procédure complète (premier lancement)
-      run: |
-        npx sushi
 
     - name: Setup Ruby and Jekyll
       uses: ruby/setup-ruby@v1

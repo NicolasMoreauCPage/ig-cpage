@@ -12,4 +12,9 @@ liquid/
 scripts/
 template/
 temp/
-input_cache/
+
+# Dossiers générés automatiquement par la compilation IG FHIR
+input-cache/
+output/
+temp/
+# (template/ déjà listé ci-dessus)
