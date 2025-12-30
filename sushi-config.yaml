@@ -1,10 +1,10 @@
-id: ig-cpage-fhir-template
-canonical: https://www.cpage.fr/ig/ig-cpage-fhir-template
-name: IG FHIR Template CPage
+id: ig-cpage-general-template
+canonical: https://www.cpage.fr/ig/ig-cpage-general-template
+name: IG Template CPage
 status: draft
 version: 0.1.0
 date: 2025-12-30
-title: Template IG FHIR CPage
+title: Template IG CPage
 publisher:
   name: CPage
   url: https://www.cpage.fr
