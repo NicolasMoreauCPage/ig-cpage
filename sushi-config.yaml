@@ -28,6 +28,12 @@ dependencies:
 pages:
   index.md:
     title: Accueil
+  downloads.md:
+    title: Téléchargement du guide
 
 menu:
   "Accueil": index.html
+  Ressources de conformité: artifacts.html
+  Documentations: 
+    Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
+    Téléchargements: downloads.html
